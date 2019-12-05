@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 }
 app.get("/api", (req, res) => {
   // res.send({ data: "This message is from node js server" });
-  res.status(200).send({ data: "message from node server" });
+  res.status(200).send({ data: "message from node server>" });
 });
 
 // app.get("*", (req, res) => {
